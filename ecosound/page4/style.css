@@ -1,0 +1,86 @@
+body {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 24px;
+}
+.header {
+  height: 70px;
+}
+.header-inner {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  list-style: none;
+}
+.menu li a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #fff;
+  transition: 0.5s ease;
+}
+.menu li a:hover {
+  color: #bdae82;
+}
+.page1 {
+  background-image: url("../assets/img/javoronok.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  position: relative;
+  z-index: 3;
+  background-size: cover;
+}
+.play-btn {
+  position: absolute;
+  z-index: 5;
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  top: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.github {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+}
+.github:hover {
+  color: #bdae82;
+}
+.rsschool-icon {
+  width: 100px;
+  height: 100px;
+}
+.rsschool-icon:hover {
+  fill: #bdae82;
+}
